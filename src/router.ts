@@ -1,13 +1,11 @@
 import { Router } from "express";
-
+// Setting-up the router
 const router = Router()
-// Routing
-router.get("/", (req, res) => {
-    res.send("Welcome to my Home Page from Express & Barry");
+
+/** SingOn & Authentication **/
+router.post("/auth/register", (req, res) => {
+    console.log(req.body);
 });
-router.get("/about", (req, res) => {
-    res.send("Welcome to About Me");
-});
-router.get("/blog", (req, res) => {
-    res.send("Welcome to my Blog");
-});
+
+// Exporting the router
+export default router;
