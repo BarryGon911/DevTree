@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js"
   },
   "keywords": [],
-  "author": "Erick Ruiz @BarryGon911",
+  "author": "BarryGon911",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
