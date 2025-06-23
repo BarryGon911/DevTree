@@ -1,2 +1,2 @@
 # DevTree
-App FullStack con BackEnd: Node con Express, FrontEnd: React con Next; codeado con TypeScript 5.8.3 y transpilado a JS EC2022
+Proyecto DevTree en Node con Express, React con Next, HTML5, TailwindCSS & TypeScript
