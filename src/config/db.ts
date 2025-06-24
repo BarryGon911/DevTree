@@ -7,7 +7,9 @@ export const connectDB = async () => {
         const url = `${connection.host}:${connection.port}/${connection.name}`;
         console.log(colors.bgBlue.cyan.bold(`MongoDB connected successfully on ${url}`));
         return "Ok"
-    } catch (error) {
+    }
+    
+    catch (error) {
         console.error(colors.bgRed.bold.white.bold(error.message));
         process.exit(1);// Exit the process with Failure
     }

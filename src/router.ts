@@ -1,11 +1,9 @@
 import { Router } from "express";
-// Setting-up the router
-const router = Router()
+const router = Router() // Setting-up the router
 
 /** SingOn & Authentication **/
 router.post("/auth/register", (req, res) => {
     console.log(req.body);
 });
 
-// Exporting the router
-export default router;
+export default router;  // Exporting the Router
